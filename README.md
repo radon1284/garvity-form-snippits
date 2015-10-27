@@ -1,5 +1,6 @@
 # gravity-form-snippits
 ```php
+// Special Phone Validation
 add_filter( 'gform_field_validation_1_4', 'validate_phone_1_4', 10, 4 );
 function validate_phone_1_4( $result, $value, $form, $field ) {
     session_start();
@@ -11,7 +12,7 @@ function validate_phone_1_4( $result, $value, $form, $field ) {
 
     return $result;
 }
-
+// Special Phone Validation
 add_filter( 'gform_field_validation_1_5', 'validate_phone_1_5', 10, 4 );
 function validate_phone_1_5( $result, $value, $form, $field ) {
     session_start();
@@ -23,6 +24,7 @@ function validate_phone_1_5( $result, $value, $form, $field ) {
 
     return $result;
 }
+// Special text field Validation
 add_filter( 'gform_field_validation_1_17', 'validate_phone_1_17', 10, 4 );
 function validate_phone_1_17( $result, $value, $form, $field ) {
     session_start();
