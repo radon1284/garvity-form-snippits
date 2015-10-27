@@ -39,7 +39,10 @@ function validate_phone_1_17( $result, $value, $form, $field ) {
 
     return $result;
 }
+```
 
+```php
+//Sending Data to third party user
 add_filter( 'gform_confirmation_1', 'post_to_lead_service', 10, 3 );
 function post_to_lead_service( $confirmation, $form, $entry ) {
 
