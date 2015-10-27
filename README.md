@@ -24,6 +24,9 @@ function validate_phone_1_5( $result, $value, $form, $field ) {
 
     return $result;
 }
+```
+
+```php
 // Special text field Validation
 add_filter( 'gform_field_validation_1_17', 'validate_phone_1_17', 10, 4 );
 function validate_phone_1_17( $result, $value, $form, $field ) {
