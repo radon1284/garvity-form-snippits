@@ -1,4 +1,4 @@
-# garvity-form-snippits
+# gravity-form-snippits
 ```php
 add_filter( 'gform_field_validation_1_4', 'validate_phone_1_4', 10, 4 );
 function validate_phone_1_4( $result, $value, $form, $field ) {
